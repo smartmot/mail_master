@@ -18,80 +18,8 @@ class MailController extends Controller
 
     public function send(){
         $contact = [
-            ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT'],
-            ['email'=>'bkworldofficial@gmail.com','name'=>'Man Lors'],
-            ['email'=>'thienquang.lu@hgbgroup.com','name'=>'Peter Lu'],
-            ['email'=>'rpacini9292@yahoo.com','name'=>'Ross Pacini'],
-            ['email'=>'h.darwell@acclime.com','name'=>'Hugh Darwell'],
-            ['email'=>'channy@acledabank.com.kh','name'=>'Channy IN'],
-            ['email'=>'pierre.combedimanche@acteusgroup.com','name'=>'PIERRE COMBEDIMANCHE'],
-            ['email'=>'da.dong@adm.com','name'=>'Da DONG'],
-            ['email'=>'i.zimarev@ababank.com','name'=>'Igor Zimarev'],
-            ['email'=>'chris.hobden@cbre.com','name'=>'Chris Hobden'],
-            ['email'=>'javierneo@affinitystar.insure','name'=>'Javier Neo'],
-            ['email'=>'crogers@asianhope.org','name'=>'Cody Rogers'],
-            ['email'=>'devin.barta@ahfproducts.com','name'=>'Devin Barta'],
-            ['email'=>'andrew-ty.loh@aia.com','name'=>'Andrew TY Loh'],
-            ['email'=>'info.americanhardwoodflooring@gmail.com','name'=>'Geraldine Adolh'],
-            ['email'=>'thomas@aitaxadvisers.com','name'=>'Thomas Carden'],
-            ['email'=>'jhershey@soy.org','name'=>'Jim Hershey'],
-            ['email'=>'dunn@aupp.edu.kh','name'=>'Ken DUNN'],
-            ['email'=>'ceo@amrurice.com.kh','name'=>'Saran SONG'],
-            ['email'=>'tomas.gimenez@ab-inbev.com','name'=>'Tomas Gimenez'],
-            ['email'=>'yulia@animal-mama.com','name'=>'Julia Khouri'],
-            ['email'=>'thoo.kimseng@apdbank.com.kh','name'=>'Thoo Kim Seng'],
-            ['email'=>'kem.sambaddh@apratifoods.asia','name'=>'Sambaddh KEM'],
-            ['email'=>'sotheara@bellevueservicedapartments.com','name'=>'Sotheara IENG'],
-            ['email'=>'ramisambath@auskhmer.com','name'=>'Sothea Sambath'],
-            ['email'=>'betsy@aispp.edu.kh','name'=>'Betsy Hanselmann'],
-            ['email'=>'daisyflores@beyonddesign.biz','name'=>'Daisy Flores'],
-            ['email'=>'souryhimkpt@gmail.com','name'=>'Daniel Charles Rothenberg'],
-            ['email'=>'eric@vibecafeasia.com','name'=>'Eric Tondine'],
-            ['email'=>'rynarith@baitonghotel.asia','name'=>'Narith RY'],
-            ['email'=>'kirill.bratchenko@biplanglobal.com','name'=>'Kirill Bratchenko'],
-            ['email'=>'j.m.carson@boeing.com','name'=>'J Michael Carson'],
-            ['email'=>'bchhay@bowergroupasia.com','name'=>'Bora Chhay'],
-            ['email'=>'stevenyeo@ajaxadjusters.com','name'=>'Steven Yeo'],
-            ['email'=>'guillaume.perdon@bredcambodia.com','name'=>'Guillaume PERDON'],
-            ['email'=>'khy.phanna@brinks.com','name'=>'Phanna Khy'],
-            ['email'=>'sreyleaktheary@gmail.com','name'=>'Gil Livni'],
-            ['email'=>'dawigglesworth@coca-cola.com.kh','name'=>'David Wigglesworth'],
-            ['email'=>'jim@aifa-cambodia.com','name'=>'JAMES LATT'],
-            ['email'=>'scott@cambodianchildrensfund.org','name'=>'Scott Neeson'],
-            ['email'=>'anthonygalliano@covenantim.com','name'=>'Anthony Galliano'],
-            ['email'=>'kuy.vat@century21.com.kh','name'=>'Vat KUY'],
-            ['email'=>'president@cam-ed.com','name'=>'Casey Barnett'],
-            ['email'=>'simon.perkins@cellcard.com.kh','name'=>'Simon Perkins'],
-            ['email'=>'brittany.haney@cisp.edu.kh','name'=>'Brittany Haney'],
-            ['email'=>'savy@caringforcambodia.org','name'=>'Savy Ung'],
-            ['email'=>'pisey.k@sayon.com.kh','name'=>'PISEY KHUT'],
-            ['email'=>'sokunthai.yeab@orkin.com.kh','name'=>'Borey Leng'],
-            ['email'=>'moniveark.sou@chemdrycambodia.com','name'=>'Siveourn Sin'],
-            ['email'=>'pongtorn.t@chevron.com','name'=>'Pongtorn Tangmanuswong'],
-            ['email'=>'porlim3@coffee-concepts.com.kh','name'=>'Lim POR'],
-            ['email'=>'gosports10pl@yahoo.com','name'=>'Morris Andreini'],
-            ['email'=>'piyoros.naronglith@courtyard.com','name'=>'Jean Naronglith'],
-            ['email'=>'wai-kitt.chin@crowncork.com.sg','name'=>'Wai Kitt CHIN'],
-            ['email'=>'dan.davies4d@gmail.com','name'=>'Dan Davies'],
-            ['email'=>'bopha.property@gmail.com','name'=>'Michael Couto'],
-            ['email'=>'gmap@darahotels.com','name'=>'Weng Aow'],
-            ['email'=>'events.cambodia@dfdl.com','name'=>''],
-            ['email'=>'vithou.pen@ecamsolution.com','name'=>'Vithou Pen'],
-            ['email'=>'david.totten@emc-consulting.asia','name'=>'David Totten'],
-            ['email'=>'ali.copple@enduring-consultancy.com','name'=>'Ali Copple'],
-            ['email'=>'rsyna@evaair.com','name'=>'SYNA ROS'],
-            ['email'=>'pheakdey@fb.com','name'=>'Pheakdey Heng'],
-            ['email'=>'mrobinson@minor.com','name'=>'Michael Robinson'],
-            ['email'=>'b_farland@hotmail.com','name'=>'Brent McFarland'],
-            ['email'=>'sothanyc@firstfinance.biz','name'=>'Prum Diman'],
-            ['email'=>'kruy.lim@firstclass.com.kh','name'=>'Kruy Lim'],
-            ['email'=>'sitha.forestharmony@gmail.com','name'=>'SITHA IN'],
-            ['email'=>'funke@4thcultureltd.com','name'=>'Funke Alabi'],
-            ['email'=>'sbolls@gas-global.com','name'=>'Scott Bolls'],
-            ['email'=>'dararith.lim@ge.com','name'=>'Dararith LIM'],
-            ['email'=>'jesse@glean.net','name'=>'Jesse Orndorff'],
-            ['email'=>'ronald.almera@kh.gt.com','name'=>'Ronald Almera'],
-            ['email'=>'sheimberg@heimberbarr.com','name'=>'Steven Heimberg'],
+            ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT1'],
+
             ['email'=>'johnhel@herbalife.com','name'=>'John Hellmann'],
             ['email'=>'james.padden@hkland.com','name'=>'James Padden'],
             ['email'=>'gm@hotelcambodiana.com.kh','name'=>'Stefan Willimann'],
@@ -99,6 +27,8 @@ class MailController extends Controller
             ['email'=>'herman.kemp@hyatt.com','name'=>'Herman Kemp'],
             ['email'=>'joseph@iao-asia.com','name'=>'Joseph Lovell'],
             ['email'=>'sreng.mao@idp.com','name'=>'Sreng MAO'],
+
+            ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT2'],
             ['email'=>'sutieng@infinity.com.kh','name'=>'SU TIENG TECK'],
             ['email'=>'seavmeng.ing@dpc-group.com','name'=>'Seav Meng Ing'],
             ['email'=>'info@cambodiachiropractic.com','name'=>'Christophe Savoure'],
@@ -108,6 +38,8 @@ class MailController extends Controller
             ['email'=>'shinichi.tsuda@kwe.com','name'=>'SHINICHI TSUDA'],
             ['email'=>'jonathan.baxter@kh.knightfrank.com','name'=>'Jonathan Baxter'],
             ['email'=>'somanitasim@kpmg.com.kh','name'=>'Sim Somanita'],
+
+            ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT3'],
             ['email'=>'eam@cda-wines.com','name'=>'Pich SITHA'],
             ['email'=>'thomas_lim@lnlcambodia.com','name'=>'Hay Lim'],
             ['email'=>'criskirby2016@gmail.com','name'=>'Crispin Kirby'],
@@ -117,6 +49,8 @@ class MailController extends Controller
             ['email'=>'contact@malis-dental.com','name'=>'Motomi Minemura'],
             ['email'=>'sallah_essa@hotmail.com','name'=>'Salah Essa'],
             ['email'=>'chris@mangotango.asia','name'=>'Christopher McCarthy'],
+
+            ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT4'],
             ['email'=>'larry.kao@manhattansez.com','name'=>'Larry Jer-Hsiung Kao,'],
             ['email'=>'justin_helferich@manulife.com','name'=>'Justin Helferich'],
             ['email'=>'darren@maxkgroup.com','name'=>'Darren Phaen'],
@@ -131,6 +65,8 @@ class MailController extends Controller
             ['email'=>'kkheng@pactworld.org','name'=>'Khunny KHENG'],
             ['email'=>'v.te@parbury.com.kh','name'=>'Vong Chhay Te'],
             ['email'=>'isarun@pfd.org','name'=>'Sarun Im'],
+
+            ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT5'],
             ['email'=>'steven.path@pathmazing.com','name'=>'Steven Path'],
             ['email'=>'jeff@peoplenpartners.com','name'=>'Jeffrey Whittaker'],
             ['email'=>'daren.ong@pernod-ricard.com','name'=>'Ong Daren'],
@@ -144,6 +80,8 @@ class MailController extends Controller
             ['email'=>'gregory@regiotels.com','name'=>'Gregory Tugendhat'],
             ['email'=>'saing.ngorn@rmagroup.net','name'=>'Saing NGORN'],
             ['email'=>'tith@roomchang.com','name'=>'Hong Yoeu TITH'],
+
+            ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT6'],
             ['email'=>'daniel.simon@rosewoodhotels.com','name'=>'Daniel Simon'],
             ['email'=>'bjessen@samaritan.org','name'=>'Barry Jessen'],
             ['email'=>'sebkoh1118@gmail.com','name'=>'Sebastian Koh'],
@@ -157,6 +95,8 @@ class MailController extends Controller
             ['email'=>'matthew.rendall@zicolaw.com','name'=>'Rendall Matthew'],
             ['email'=>'anthony@searasports.com','name'=>'Anthony Gaglardi'],
             ['email'=>'yuni@ezecomcorp.com','name'=>'Yuni Lee Heathcote'],
+
+            ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT7'],
             ['email'=>'arnauddarc@thaliashospitality.com','name'=>'Arnaud DARC'],
             ['email'=>'meloney.lindberg@asiafoundation.org','name'=>'Meloney LINDBERG'],
             ['email'=>'gabriel@thecapacityspecialists.com','name'=>'Gabriel Helmy'],
@@ -170,6 +110,8 @@ class MailController extends Controller
             ['email'=>'higginsl@state.gov','name'=>'Higgins Lauren'],
             ['email'=>'gm@modernityholding.com','name'=>'Samuel Clayton'],
             ['email'=>'abigail.chong@theatomvattanac.com','name'=>'Abigail Chong'],
+
+            ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT7'],
             ['email'=>'alex.larkin@vdb-loi.com','name'=>'Alex LARKIN'],
             ['email'=>'mchum@visa.com','name'=>'Monika CHUM'],
             ['email'=>'yann@voltramotors.com','name'=>'VAUDIN YANN'],
@@ -187,6 +129,8 @@ class MailController extends Controller
             ['email'=>'wongtf@cab.com.kh','name'=>'Mr. Wong Tow Fock'],
             ['email'=>'stc@cambodiandts.com','name'=>'Mr. Soo Too Cheong'],
             ['email'=>'ongmt@campubank.com.kh','name'=>'Ong Ming Teck'],
+
+            ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT8'],
             ['email'=>'soh.jiunhong@campulonpac.com.kh','name'=>'Mr. Soh Jiun Hong'],
             ['email'=>'pichma.keo@cimb.com.kh','name'=>'Keo Pichma'],
             ['email'=>'gregc33@gmail.com','name'=>'Mr Gregory Chai'],
@@ -207,6 +151,8 @@ class MailController extends Controller
             ['email'=>'kelvin@kelvintan.net','name'=>'Mr. Kelvin Tan'],
             ['email'=>'mmbbakery@gmail.com','name'=>"Dato' Mohamed Mashooth"],
             ['email'=>'bizdev@minconsult.com','name'=>'Mr Gainovry A. Djafar'],
+
+            ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT9'],
             ['email'=>'anton@mpacambodia.com','name'=>'Mr. Anton Durairaj'],
             ['email'=>'my@online.com.kh','name'=>'Mr. Ng Ching Poo'],
             ['email'=>'pernchen@nagaworld.com','name'=>'Mr. Pern Chen'],
@@ -219,6 +165,8 @@ class MailController extends Controller
             ['email'=>'wong.kee.poh@rhbgroup.com','name'=>'Wong Kee Poh'],
             ['email'=>'azmeer.syed@gmail.com','name'=>'Mr. Syed Azmee'],
             ['email'=>'sl.intl.1@online.com.kh','name'=>'Mr. Kenneth Kee'],
+
+            ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT10'],
             ['email'=>'airports.aeropatrick.chan@cambodia','name'=>'Mr. Patrick Chan'],
             ['email'=>'anthony.thong@softlinegroup.com','name'=>'Mr Anthony Thong'],
             ['email'=>'daron.wong@zicolaw.com','name'=>'Mr Daron Wong'],
@@ -236,7 +184,17 @@ class MailController extends Controller
             ['email'=>'mohan@khmertimeskh.com','name'=>'Mr Mohan Tirugmanasam Bandam'],
             ['email'=>'simon@westecmedia','name'=>'Mr Simon Choo Chee Yen'],
         ];
-        foreach ($contact as $email){
+        $cc = [
+            [
+                "email" => "sheimberg@heimberbarr.com",
+                "name" => "Steven Heimberg"
+            ],
+            [
+                "email" => "lyelmot@gmail.com",
+                "name" => "EL MOT"
+            ]
+        ];
+        foreach ($cc as $email){
             $mail = new PromoteMail();
            if ( Mail::to($email["email"])
                ->queue(
@@ -244,7 +202,7 @@ class MailController extends Controller
                        "name" => $email["name"]
                    ])
                )){
-               echo $email["email"] . "<br/>";
+               echo $email["email"] . "__success_<br/>";
            }else{
                echo $email["email"] . "_error_<br/>";
            }
