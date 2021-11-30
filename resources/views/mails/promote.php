@@ -10,7 +10,7 @@
     </div>
     Dear <?php echo $name; ?>,<br/><br/>
 
-    Greeting from Ether Union Cambodia.<br/>
+    Greeting from <b>Ether Union Cambodia</b>.<br/>
     We hope you are doing fine and stay safe.<br/><br/>
 
     Have you heard about ASEAN Tourism Forum and Southeast Asia Sailing Championship?<br/>
@@ -22,7 +22,7 @@
 
 
     Thanks and best regards<br/>
-    Man Lors<br/>
+    <b>Man Lors</b><br/>
     +85510550690<br/>
     +85599550690<br/>
 </div>

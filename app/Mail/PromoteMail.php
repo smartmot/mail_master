@@ -30,7 +30,7 @@ class PromoteMail extends Mailable
     {
         return $this
             ->from("info@bkworld.asia", "BK WORLD DEVELOPMENT CO., LTD")
-            ->subject("Letter of Appointment (3rd test)")
+            ->subject("Cambodia international event")
             ->markdown('mails.promote');
     }
 }
