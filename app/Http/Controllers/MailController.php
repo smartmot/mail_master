@@ -194,7 +194,7 @@ class MailController extends Controller
                 "name" => "EL MOT"
             ]
         ];
-        foreach ($cc as $email){
+        foreach ($contact as $email){
             $mail = new PromoteMail();
            if ( Mail::to($email["email"])
                ->queue(
