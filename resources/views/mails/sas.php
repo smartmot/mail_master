@@ -1,7 +1,6 @@
 <?php
 $contact = [
     ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT'],
-    ['email'=>'bkworldofficial@gmail.com','name'=>'Man Lors'],
     ['email'=>'thienquang.lu@hgbgroup.com','name'=>'Peter Lu'],
     ['email'=>'rpacini9292@yahoo.com','name'=>'Ross Pacini'],
     ['email'=>'h.darwell@acclime.com','name'=>'Hugh Darwell'],
@@ -29,6 +28,8 @@ $contact = [
     ['email'=>'daisyflores@beyonddesign.biz','name'=>'Daisy Flores'],
     ['email'=>'souryhimkpt@gmail.com','name'=>'Daniel Charles Rothenberg'],
     ['email'=>'eric@vibecafeasia.com','name'=>'Eric Tondine'],
+
+    ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT1'],
     ['email'=>'rynarith@baitonghotel.asia','name'=>'Narith RY'],
     ['email'=>'kirill.bratchenko@biplanglobal.com','name'=>'Kirill Bratchenko'],
     ['email'=>'j.m.carson@boeing.com','name'=>'J Michael Carson'],
@@ -55,6 +56,8 @@ $contact = [
     ['email'=>'piyoros.naronglith@courtyard.com','name'=>'Jean Naronglith'],
     ['email'=>'wai-kitt.chin@crowncork.com.sg','name'=>'Wai Kitt CHIN'],
     ['email'=>'dan.davies4d@gmail.com','name'=>'Dan Davies'],
+
+    ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT2'],
     ['email'=>'bopha.property@gmail.com','name'=>'Michael Couto'],
     ['email'=>'gmap@darahotels.com','name'=>'Weng Aow'],
     ['email'=>'events.cambodia@dfdl.com','name'=>''],
@@ -83,6 +86,8 @@ $contact = [
     ['email'=>'sreng.mao@idp.com','name'=>'Sreng MAO'],
     ['email'=>'sutieng@infinity.com.kh','name'=>'SU TIENG TECK'],
     ['email'=>'seavmeng.ing@dpc-group.com','name'=>'Seav Meng Ing'],
+
+    ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT3'],
     ['email'=>'info@cambodiachiropractic.com','name'=>'Christophe Savoure'],
     ['email'=>'garethjones@ispp.edu.kh','name'=>'Gareth Jones'],
     ['email'=>'pedro.bernardo@kcpartnership.com','name'=>'Pedro Jose Bernardo'],
@@ -112,6 +117,8 @@ $contact = [
     ['email'=>'marty@ymrtrading.com','name'=>'Marty Yang'],
     ['email'=>'kkheng@pactworld.org','name'=>'Khunny KHENG'],
     ['email'=>'v.te@parbury.com.kh','name'=>'Vong Chhay Te'],
+
+    ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT4'],
     ['email'=>'isarun@pfd.org','name'=>'Sarun Im'],
     ['email'=>'steven.path@pathmazing.com','name'=>'Steven Path'],
     ['email'=>'jeff@peoplenpartners.com','name'=>'Jeffrey Whittaker'],
@@ -140,6 +147,8 @@ $contact = [
     ['email'=>'anthony@searasports.com','name'=>'Anthony Gaglardi'],
     ['email'=>'yuni@ezecomcorp.com','name'=>'Yuni Lee Heathcote'],
     ['email'=>'arnauddarc@thaliashospitality.com','name'=>'Arnaud DARC'],
+
+    ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT5'],
     ['email'=>'meloney.lindberg@asiafoundation.org','name'=>'Meloney LINDBERG'],
     ['email'=>'gabriel@thecapacityspecialists.com','name'=>'Gabriel Helmy'],
     ['email'=>'thegivingtreeoffice@gmail.com','name'=>'Anna Glazkova'],
@@ -174,6 +183,8 @@ $contact = [
     ['email'=>'gregc33@gmail.com','name'=>'Mr Gregory Chai'],
     ['email'=>'chinmon@covenant.com.kh','name'=>'Ms Cheah Chin Mon'],
     ['email'=>'kienhoe.onn@crowe.my','name'=>'Mr. Onn Kien Hoe'],
+
+    ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT7'],
     ['email'=>'richard.chung@dragonfly.com.kh','name'=>'Mr. Richard Chung Lee Chek'],
     ['email'=>'kokmeng.l@etiqa.com.my','name'=>'Clarence Lit Kok Meng'],
     ['email'=>'yeezent.ng@kh.gt.com','name'=>'Mr Ng Yee Zent'],
@@ -216,5 +227,5 @@ $contact = [
     ['email'=>'jeff@visionoutdoor.com.kh','name'=>'Jeff Cheah'],
     ['email'=>'michael@virtuecap.net','name'=>'Michael Lim'],
     ['email'=>'mohan@khmertimeskh.com','name'=>'Mr Mohan Tirugmanasam Bandam'],
-    ['email'=>'simon@westecmedia','name'=>'Mr Simon Choo Chee Yen'],
+    ['email'=>'ldpmotz@gmail.com','name'=>'EL MOT end'],
 ];
